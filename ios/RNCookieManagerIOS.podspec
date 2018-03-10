@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.homepage            = "https://github.com/yhll/react-native-cookies"
   s.license             = "MIT"
   s.author              = "yhll"
-  s.source              = { :git => "git@github.com:yhll/react-native-cookies.git" }
+  s.source              = { :git => "https://github.com/yhll/react-native-cookies.git" }
   s.requires_arc        = true
   s.platform            = :ios, "7.0"
   s.preserve_paths      = "*.framework"
