@@ -23,6 +23,9 @@ Pod::Spec.new do |s|
   s.requires_arc        = true
   s.platform            = :ios, "7.0"
   s.preserve_paths      = "*.framework"
-  s.source_files        = 'RNCookieManagerIOS/**/*.{h,m}'
+  s.subspec 'Core' do |ss|
+    ss.source_files = 'ios/RNCookieManagerIOS/*.{h,m}'
+    ss.public_header_files = ['ios/RNCookieManagerIOS/*.h']
+  end
 
 end
