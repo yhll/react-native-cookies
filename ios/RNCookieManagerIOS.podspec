@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
   s.name                = "RNCookieManagerIOS"
   s.version             = "1.0.2"
-  s.summary             = "" 
+  s.summary             = "rn cookie manager" 
   s.description         = <<-DESC
                             React Native apps are built using the React JS
                             framework, and render directly to native UIKit
