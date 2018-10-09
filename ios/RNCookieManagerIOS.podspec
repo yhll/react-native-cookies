@@ -28,4 +28,5 @@ Pod::Spec.new do |s|
     ss.source_files = 'ios/RNCookieManagerIOS/*.{h,m}'
     ss.public_header_files = ['ios/RNCookieManagerIOS/*.h']
   end
+ s.dependency 'React'
 end
