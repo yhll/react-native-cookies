@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.name                = "RNCookieManagerIOS"
   s.version             = "1.0.2"
   s.summary             = "rn cookie manager"
-  s.dependency 'React'
+ 
   s.description         = <<-DESC
                             React Native apps are built using the React JS
                             framework, and render directly to native UIKit
@@ -28,5 +28,5 @@ Pod::Spec.new do |s|
     ss.source_files = 'ios/RNCookieManagerIOS/*.{h,m}'
     ss.public_header_files = ['ios/RNCookieManagerIOS/*.h']
   end
-
+   s.dependency 'React'
 end
